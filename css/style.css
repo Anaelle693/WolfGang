@@ -1,0 +1,232 @@
+html{
+    font-size:62.5%;
+}
+
+body{
+    background-image:url(../img/bg_body.svg);
+    background-repeat:repeat;
+    background-color:#333;
+    font-family:"Roboto Slab", serif;
+    color:white;
+    font-size:1.2em;
+    line-height:1.6;
+    text-align:center;
+    margin:20px;
+}
+
+h2{
+    font-family:"Open sans";
+    font-size:2em;
+    text-transform:uppercase;
+    border-left:1px solid #222;
+    border-top:1px solid #222;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+h3{
+    font-family:"Open sans";
+    border-bottom: 1px solid #FF9D00;
+    font-size:1.8em;
+    text-transform:uppercase;
+    line-height:1.6;
+    margin-bottom:5px;
+
+}
+
+span{
+    color:#FF9D00;
+}
+
+header{
+    background-image: linear-gradient(163deg,white 50%, black 50%);
+    width:100%;;
+    padding-top:10px;
+    padding-bottom:40px;
+}
+
+header img{
+    float:left;
+    max-width:100%;
+}
+
+header nav{
+    padding-top:20px;
+    padding-bottom: 5px;
+}
+
+header nav a{
+    color:white;
+    font-size:1.4em;
+    text-decoration:none;
+    display:block;
+    line-height:2em;
+    text-align:right;
+    padding-right:40px;
+    padding-top:5px;
+}
+
+main section picture img{
+    max-width:100%;
+}
+
+.part1{
+    color:#333;
+    margin:2em;
+    padding: 10px 0 20px;
+}
+
+.part1 .moto1{
+    background-color:white;
+    margin-bottom:30px;
+    padding:1em;
+}
+
+.part1 .moto2{
+    background-color:white;
+    margin-bottom:30px;
+    padding:1em;
+}
+
+.part1 .moto3{
+    background-color:white;
+    margin-bottom:30px;
+    padding:1em;
+}
+
+.part1 .moto4{
+    background-color:white;
+    margin-bottom:30px;
+    padding:1em;
+} 
+
+span button{
+    background-color:#FF9D00;
+    color:white;
+    margin-bottom:20px;
+    padding:10px;
+    border:0;
+}
+
+.part2 a , .fab{
+    display:block;
+    color:white;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+video{
+    width:100%;
+    height:auto;
+}
+
+footer{
+    box-shadow: 5px 5px 5px 5px #222;
+}
+
+footer p{
+    color:lightgray;
+}
+
+footer nav a{
+    color:white;
+    text-decoration:underline;
+    padding:30px;
+    text-align:center;
+    
+}
+
+#licence{
+    color:white;
+    display:block;
+    text-align:center;
+    padding:30px;
+}
+
+#licence a{
+    color:white;
+    text-decoration:underline;
+}
+
+
+#licence img{
+    width: 40px;
+}
+
+
+/*Responsive tablette */  
+@media screen and (min-width: 768px){
+
+.part2 a{
+  display:block;
+  
+}
+
+video{
+    width:100%;
+    height:auto;
+}
+
+
+
+}
+
+/* Responsive Desktop */
+@media screen and (min-width : 1024px){
+    
+.part1{
+    display:flex;
+    justify-content:space-around;
+    margin-bottom:0;
+
+}
+
+.moto1 ,.moto2, .moto3{
+    margin-right:20px;
+}
+
+.part2 {
+    margin-left: 2em;
+    margin-right:2em;
+    margin-bottom:2em;
+    width:55%;
+    float:left;
+    justify-content:center;
+    align-items:flex-end;
+    /*vertical-align:top;*/
+   
+}
+
+.part2 a{
+    display:inline-block;
+    padding-right:30px;
+}
+
+video{
+    margin:0 2em 2em 2em;
+    width:35%;
+    margin-top: 80px;
+    float:right;
+    justify-content:center;
+    align-items:flex-end;
+    
+    /*vertical-align:bottom;*/
+}
+
+ .stopFlottement{
+        clear:both;
+    }
+    
+footer h4{
+    margin-top:20px;
+}    
+    
+footer nav{
+    display:inline-block;
+    flex-direction:row;
+    justify-content:space-around;
+    
+}    
+    
+}  
+ 
